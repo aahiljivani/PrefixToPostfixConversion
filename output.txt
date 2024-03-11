@@ -1,0 +1,20 @@
+Prefix Expression is -+ABC:
+Postfix Expression is AB+C-
+Prefix Expression is -A+BC:
+Postfix Expression is ABC+-
+Prefix Expression is $+-ABC+D-EF:
+Postfix Expression is AB-C+DEF-+$
+Prefix Expression is -*A$B+C-DE*EF:
+Postfix Expression is ABCDE-+$*EF*-
+Prefix Expression is **A+BC+C-BA:
+Postfix Expression is ABC+*CBA-+*
+Error: Invalid Expression. Check the input and ensure it's a valid prefix expression. Input line: '/A+BC+C*BA'
+Prefix Expression is *-*-ABC+BA:
+Postfix Expression is AB-C*BA+-
+Prefix Expression is /+/A-BC-BA:
+Postfix Expression is ABC-/BA-+
+Prefix Expression is *$A+BC+C-BA:
+Postfix Expression is ABC+$CBA-+*
+Prefix Expression is //A+B0-C+BA:
+Postfix Expression is AB0+/CBA+-/
+Invalid use of exponent, please change '^' character to '$' in the input line: '*$A^BC+C-BA'
